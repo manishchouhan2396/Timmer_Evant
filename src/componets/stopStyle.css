@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&family=Macondo&family=Mukta:wght@200&family=Roboto+Slab&family=Roboto:wght@500&family=Water+Brush&display=swap');
+#timmer{
+    font-size: 25px;
+    color: green;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin: 5% 30% 0% 30%;
+    padding: 50px 50px 50px 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#timmer div{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+#timmer div button{
+    height: 30px;
+    width: 100px;
+    background-color: teal;
+    margin-top: 20px 0 50px 0px;
+    border-radius: 10px;
+}
+#timmer div{
+    padding-top: 20px ;
+}
+
+snap{
+   color: brown; 
+}
+
+#alert{
+    background-color: red;
+}
