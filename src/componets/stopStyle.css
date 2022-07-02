@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&family=Macondo&family=Mukta:wght@200&family=Roboto+Slab&family=Roboto:wght@500&family=Water+Brush&display=swap');
 #timmer{
     font-size: 25px;
-    color: green;
+    color: rgb(5, 9, 46);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     margin: 5% 30% 0% 30%;
     padding: 50px 50px 50px 50px;
@@ -30,4 +30,26 @@ snap{
 
 #alert{
     background-color: red;
+}
+
+.timmerRef {
+    font-size: 25px;
+    color: brown;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin: 5% 30% 0% 30%;
+    padding: 50px 50px 50px 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.timmerRef div{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+button{
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: blue;
+    color: whitesmoke;
 }

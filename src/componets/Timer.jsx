@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import "../componets/stopStyle.css"
 
 const Timer = () => {
-    const [timer, setTimer] = useState( 10);
+    const [timer, setTimer] = useState( 30);
 
     useEffect(() => {
         const id = setInterval(() => {
@@ -23,7 +23,7 @@ const Timer = () => {
     }, [timer]);
     return (
         <div id="timmer">
-            <div>Count Down : <snap>{timer}</snap></div>
+            <div>Count Down : <snap>{timer}</snap> Sec</div>
             {/* <input type="number"  setTimer(timer) /> */}
         </div>
     )
